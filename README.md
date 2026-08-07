@@ -1,6 +1,6 @@
 # To-Do List Application with Basic CRUD Operations
 
-This project implements a simple To-Do list application using FastAPI, providing basic Create, Read, Update, and Delete (CRUD) operations. The tasks are managed in an in-memory database, meaning data will not persist across application restarts.
+This project implements a simple To-Do list application using FastAPI, providing basic Create, Read, Update, and Delete (CRUD) operations. The tasks are managed in a SQLite database, ensuring that data persists across application restarts.
 
 ## Features
 
@@ -13,6 +13,7 @@ This project implements a simple To-Do list application using FastAPI, providing
 
 -   FastAPI
 -   Pydantic
+-   SQLite
 
 ## How to Run
 

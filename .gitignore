@@ -1,0 +1,6 @@
+.aider*
+
+tasks.db
+__pycache__/
+.venv/
+uv.lock
