@@ -32,7 +32,7 @@ Here is a screenshot of the database viewer showing the tasks:
 ### Example SQL Query Executed
 
 ```sql
-SELECT * FROM tasks WHERE done = 1;
+SELECT * FROM tasks WHERE completed = 1;
 ```
 
 ## How to Run
