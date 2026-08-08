@@ -15,6 +15,26 @@ This project implements a simple To-Do list application using FastAPI, providing
 -   Pydantic
 -   SQLite
 
+## Database Configuration
+
+**Why SQLite was chosen:**
+SQLite was chosen for its simplicity and zero-configuration setup. It stores the entire database in a single local file, making it ideal for a lightweight To-Do application without the overhead of setting up a separate database server.
+
+**Where the database file is stored:**
+The database is stored locally in the root directory of the project in a file named `tasks.db`.
+
+## Database Viewer
+
+Here is a screenshot of the database viewer showing the tasks:
+
+![Database Viewer](db_viewer_screenshot.png)
+
+### Example SQL Query Executed
+
+```sql
+SELECT * FROM tasks WHERE done = 1;
+```
+
 ## How to Run
 
 1.  **Clone the repository**:
